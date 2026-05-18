@@ -1,3 +1,11 @@
+/*
+ * Escribe una función que reciba dos palabras (String) y retorne
+ * verdadero o falso (Bool) según sean o no anagramas.
+ * - Un Anagrama consiste en formar una palabra reordenando TODAS
+ *   las letras de otra palabra inicial.
+ * - NO hace falta comprobar que ambas palabras existan.
+ * - Dos palabras exactamente iguales no son anagrama.
+ */
 import java.util.Arrays;
 
 public class Ejercicio02 {
@@ -6,7 +14,7 @@ public class Ejercicio02 {
 
         //palabras a comparar (roma, amor, mora: si son anagranmas, ropa no es anagrama)
         String palabra1 = "ropa";
-        String palabra2 = "mora";
+        String palabra2 = "ropa";
 
         //si son exactamente iguales NO es un anagrama
         if (palabra1.equals(palabra2)) {
